@@ -6,7 +6,7 @@ print("Is ther a breeze?")
 is_breeze = input().lower()
 
 if is_sunny == "yes" and is_breeze == "yes": #why two equal == sign
-    if is_breeze == "yes" 
+    if is_breeze == "yes":
         print("Clothes are dry")
     else:
         print("clothes are drying slowly")
