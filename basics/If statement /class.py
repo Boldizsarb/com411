@@ -6,4 +6,7 @@ age = int(input())
 if age >=18: # the column means do the following
      print("You are an adult")
      print("Because you are 18 years old or greater")
+else: # again the column means do the following 
+    print("You are not an adult")
+    print("Because you are below 18")
 print("End of the program")
