@@ -18,3 +18,7 @@ for count in range(5): # 0, 1, 2, 3, 4
     user_number = float(input())
 count = 0
 
+#nested loops
+#for row in range(rows):
+    #for col in range(cols):
+    #    print("&") #not finished 
