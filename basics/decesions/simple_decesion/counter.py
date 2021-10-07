@@ -7,7 +7,7 @@ print("Please enter ther third number")
 third_number = int (input())
 
 # we are looking for the number of even and odd numbers
-even_numbers = 0    
+even_numbers = 0    #declaring variables
 odd_numbers = 0
 # determining which numbers are even and odd
 if first_number % 2 == 0:
