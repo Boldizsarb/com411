@@ -8,9 +8,9 @@ if answer2 == ("yes") or ("little"):
     if hotel_where == ("where?"):
        print("It is just around the corner on your left. Do you need company?")
        company_answer = input()
-        if company_answer == ("yes") or ("maybe"):
+       if company_answer == ("yes") or ("maybe"):
             print("Let us go then, I will show you the way.")
-        else:
+       else:
             print("somehting")
     else:
         print('In case you get lost just wistle 2 times and I will find you.')
