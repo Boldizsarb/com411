@@ -4,7 +4,7 @@ def observed():
     for count in range(7):
         print("Please enter an observation:")
         observations.append(input())
-        return observations
+    return observations
 
 def run():
     print("Counting observations...")
@@ -16,7 +16,7 @@ def run():
         data = (observation, local_variable.count(observation))
         empty_set.add(data)
 
-        for data in local_variable:
-            print(f"{data[0]} observed {data[1]} times")
+    for data in empty_set:
+        print(f"{data[0]} observed {data[1]} times")
 
 run()
