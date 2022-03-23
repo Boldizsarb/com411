@@ -26,7 +26,10 @@ def save(file_path, data):
 # and store the value returned by the function in a local variable named data.
 def run():
     search("books.txt")
-    save("exported_books.txt", data)
+    save("exported_books.txt", data) #something is wrong. 
+
+if __name__ == "__main__":
+    run()
 
 
     
